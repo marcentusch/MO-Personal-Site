@@ -1,25 +1,28 @@
 {
   "name": "mo-site-starter",
   "version": "1.0.0",
-  "description": "Simple website starter template with parcel and no frameworks",
+  "description": "My personal website",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "sass sass:css --style compressed --no-source-map",
-    "sass-watch": "sass sass:css --watch --style compressed --no-source-map"
+    "build": "npm run sass-watch & npm run pug-watch",
+    "sass-watch": "sass sass:css --watch --style compressed --no-source-map",
+    "pug-watch": "pug index.pug pages -w"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marcentusch/mo-site-starter.git"
+    "url": "git+https://github.com/marcentusch/MO-Personal-Site"
   },
   "author": "Marc Obel",
   "license": "ISC",
-  "homepage": "https://github.com/marcentusch/mo-site-starter#readme",
+  "homepage": "https://marcobel.com",
   "browserslist": [
     "last 2 chrome versions",
     "last 2 safari versions"
   ],
   "devDependencies": {
-    "html-minifier": "^4.0.0",
     "sass": "^1.26.10"
+  },
+  "dependencies": {
+    "pug-cli": "^1.0.0-alpha6"
   }
 }

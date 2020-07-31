@@ -1,0 +1,17 @@
+@keyframes jet-explosions {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(10);
+  }
+}
+
+@keyframes hover-cat {
+  from {
+    transform: translateY(0rem);
+  }
+  to {
+    transform: translateY(-3rem);
+  }
+}
