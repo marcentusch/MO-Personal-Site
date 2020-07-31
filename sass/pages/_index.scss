@@ -40,9 +40,24 @@ main {
   z-index: -1;
 }
 
+.mo-coding {
+  position: absolute;
+  z-index: 5;
+  height: 30%;
+  right: 0;
+  top: 65%;
+}
+
 .bg-shape1 {
   position: absolute;
   left: 0;
   width: 100%;
   top: 45%;
+}
+
+.bg-shape2 {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  top: 70%;
 }

@@ -26,21 +26,10 @@
   #c6 {
     animation: explosions 0.2s 0.6s ease-out infinite alternate;
   }
-  #c7 {
-    animation: explosions 0.2s 0.7s ease-out infinite alternate;
-  }
-  #c8 {
-    animation: explosions 0.2s 0.4s ease-out infinite alternate;
-  }
-  #c9 {
-    animation: explosions 0.2s 0.5s ease-out infinite alternate;
-  }
-  #c10 {
-    animation: explosions 0.2s 0.6s ease-out infinite alternate;
-  }
-  #c11 {
-    animation: explosions 0.2s 0.7s ease-out infinite alternate;
-  }
+}
+
+#tail {
+  animation: tail 0.2s linear infinite alternate;
 }
 
 #arm1,
@@ -80,10 +69,6 @@
   animation: clouds 3.5s 0.5s ease-in-out infinite alternate-reverse;
 }
 
-#tail {
-  animation: tail 0.2s linear infinite alternate;
-}
-
 @keyframes head {
   to {
     transform: rotate(2deg);
@@ -110,7 +95,7 @@
     transform: scale(0);
   }
   to {
-    transform: scale(7);
+    transform: scale(8);
   }
 }
 
