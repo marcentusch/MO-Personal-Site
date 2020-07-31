@@ -1,9 +1,112 @@
-@keyframes jet-explosions {
+#jet-cat {
+  animation: hover-cat 1s ease-in-out infinite alternate;
+}
+
+#explosions {
+  circle {
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+
+  #c1 {
+    animation: explosions 0.2s 0.1s ease-out infinite alternate;
+  }
+  #c2 {
+    animation: explosions 0.2s 0.2s ease-out infinite alternate;
+  }
+  #c3 {
+    animation: explosions 0.2s 0.3s ease-out infinite alternate;
+  }
+  #c4 {
+    animation: explosions 0.2s 0.4s ease-out infinite alternate;
+  }
+  #c5 {
+    animation: explosions 0.2s 0.5s ease-out infinite alternate;
+  }
+  #c6 {
+    animation: explosions 0.2s 0.6s ease-out infinite alternate;
+  }
+  #c7 {
+    animation: explosions 0.2s 0.7s ease-out infinite alternate;
+  }
+  #c8 {
+    animation: explosions 0.2s 0.4s ease-out infinite alternate;
+  }
+  #c9 {
+    animation: explosions 0.2s 0.5s ease-out infinite alternate;
+  }
+  #c10 {
+    animation: explosions 0.2s 0.6s ease-out infinite alternate;
+  }
+  #c11 {
+    animation: explosions 0.2s 0.7s ease-out infinite alternate;
+  }
+}
+
+#arm1,
+#arm2,
+#leg1,
+#leg2 {
+  transform-box: fill-box;
+  transform-origin: top;
+}
+
+#arm1 {
+  animation: flailing 1s ease-in-out infinite alternate;
+}
+#arm2 {
+  animation: flailing 0.8s 0.4s ease-in-out infinite alternate;
+}
+#leg1 {
+  animation: flailing 0.8s 0.2s ease-in-out infinite alternate;
+}
+#leg2 {
+  animation: flailing 1s 0.6s ease-in-out infinite alternate;
+}
+
+#face {
+  transform-box: fill-box;
+  transform-origin: bottom;
+  animation: head 0.2s ease-out infinite alternate;
+}
+
+#cloud1 {
+  animation: clouds 4s ease-in-out infinite alternate;
+}
+#cloud2 {
+  animation: clouds 4.5s 1s ease-in-out infinite alternate;
+}
+#cloud3 {
+  animation: clouds 3.5s 0.5s ease-in-out infinite alternate-reverse;
+}
+
+@keyframes head {
+  to {
+    transform: rotate(2deg);
+  }
+}
+
+@keyframes clouds {
+  to {
+    transform: translateX(2rem);
+  }
+}
+
+@keyframes flailing {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(5deg);
+  }
+}
+
+@keyframes explosions {
   from {
     transform: scale(0);
   }
   to {
-    transform: scale(10);
+    transform: scale(7);
   }
 }
 
@@ -12,6 +115,6 @@
     transform: translateY(0rem);
   }
   to {
-    transform: translateY(-3rem);
+    transform: translateY(-1rem);
   }
 }

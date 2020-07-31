@@ -9,11 +9,17 @@ html(lang="en")
     meta(name='description' content="Marc Obel's personal portfolio")
     meta(name='theme-color' content='#fef6e4')
     link(rel='stylesheet' href='./css/style.css')
-    title Marc Obel
+    title Marc Obel's Blog
 
   body
     +navbar
     main
       section.introduction
-        h1 Hi, I'm Marc Obel,
+        h1.intro-1 Hi, I'm Marc
+        h1.intro-2 I like making interesting and fun things on the web
       +jetcat
+      svg(class="bg-shape1" fill='none', xmlns='http://www.w3.org/2000/svg', viewBox='0 0 375 242')
+        g#bg-shape1
+          path(id='Rectangle 4', d='M375 149.49s-81.5-46.35-196.5-63.04C63.5 69.76 0 0 0 0v232h375v-82.51z', fill='#8BD3DD')
+          path(id='Rectangle 3', d='M375 151.29s-25-29.43-168.5-29.43S0 70 0 70v172h375v-90.71z', fill='#FDEFCE')
+
