@@ -80,6 +80,10 @@
   animation: clouds 3.5s 0.5s ease-in-out infinite alternate-reverse;
 }
 
+#tail {
+  animation: tail 0.2s linear infinite alternate;
+}
+
 @keyframes head {
   to {
     transform: rotate(2deg);
@@ -116,5 +120,18 @@
   }
   to {
     transform: translateY(-1rem);
+  }
+}
+
+@keyframes tail {
+  from {
+    d: path(
+      "M173.447 222.515C173.447 222.515 160 235.5 168.242 243.335C176.485 251.169 170.585 266.757 170.585 266.757"
+    );
+  }
+  to {
+    d: path(
+      "M173.447 222.515C173.447 222.515 179.5 234 168.242 243.335C156.985 252.669 170.585 266.757 170.585 266.757"
+    );
   }
 }
