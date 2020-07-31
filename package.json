@@ -4,8 +4,11 @@
   "description": "My personal website",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npm run sass-watch & npm run pug-watch",
+    "build": "npm run sass & npm run pug",
+    "build-watch": "npm run sass-watch & npm run pug-watch",
+    "sass": "sass sass:css --style compressed --no-source-map",
     "sass-watch": "sass sass:css --watch --style compressed --no-source-map",
+    "pug": "pug index.pug pages",
     "pug-watch": "pug index.pug pages -w"
   },
   "repository": {
