@@ -1,0 +1,55 @@
+#mo-arm1,
+#mo-arm2 {
+  transform-origin: left;
+  transform-box: fill-box;
+}
+
+#mo-arm2 {
+  animation: coding1 0.1s ease-in infinite alternate;
+}
+
+#mo-arm1 {
+  animation: coding2 0.15s 0.05s ease-in infinite alternate;
+}
+
+#keyboard {
+  transform-origin: center;
+  transform-box: fill-box;
+  animation: keyboard 0.1s linear infinite alternate;
+}
+
+@keyframes keyboard {
+  0% {
+    transform: rotate(2deg);
+  }
+  1% {
+    transform: rotate(-2deg);
+  }
+  50% {
+    transform: rotate(-2deg);
+  }
+  51% {
+    transform: rotate(2deg);
+  }
+  100% {
+    transform: rotate(2deg);
+  }
+}
+
+@keyframes coding1 {
+  from {
+    transform: rotate(-25deg);
+  }
+  to {
+    transform: rotate(6deg);
+  }
+}
+
+@keyframes coding2 {
+  from {
+    transform: rotate(-25deg);
+  }
+  to {
+    transform: rotate(13deg);
+  }
+}
