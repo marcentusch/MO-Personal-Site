@@ -1,26 +1,26 @@
 main {
-  padding: 3rem 4%;
   min-height: 100vh;
   position: relative;
   background-color: var(--light-bg);
-  max-width: 1040px;
-  box-shadow: 0 1rem 2rem #333;
-
-  @media screen and (min-width: 600px) {
-    border-radius: 5rem;
-    overflow: hidden;
-    margin: 5rem 20%;
-  }
 }
 
 .introduction {
   max-width: 68%;
   z-index: 5;
   position: relative;
+  padding: 1.5rem 0 0 1.5rem;
+
+  @media screen and (min-width: 600px) {
+    padding: 2rem 0 0 2rem;
+  }
+
+  @media screen and (min-width: 1024px) {
+    padding: 4rem 0 0 4rem;
+  }
 
   .intro-1 {
     font-weight: 900;
-    font-size: 3rem;
+    font-size: 3.5rem;
     // Background only on text
     -webkit-background-clip: text;
     // Transparent color so gradient is visible
@@ -40,35 +40,41 @@ main {
 
   .intro-2 {
     font-weight: 300;
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
 }
 
 .jet-cat {
-  height: 45%;
+  height: 27rem;
   position: absolute;
   top: 0;
   right: 0;
+
+  @media screen and (min-width: 1024px) {
+    height: 35rem;
+  }
 }
 
 .mo-coding {
   position: absolute;
   z-index: 5;
-  height: 30%;
+  height: 20rem;
   right: 0;
-  top: 65%;
+  top: 48%;
+
+  @media screen and (min-width: 600px) {
+    top: 65%;
+  }
+
+  @media screen and (min-width: 1024px) {
+    top: 75%;
+    height: 30rem;
+  }
 }
 
 .bg-shape1 {
   position: absolute;
   left: 0;
   width: 100%;
-  top: 41%;
-}
-
-.bg-shape2 {
-  position: absolute;
-  left: 0;
-  width: 100%;
-  top: 70%;
+  top: 50vh;
 }
