@@ -18,6 +18,12 @@
   animation: keyboard 0.1s linear infinite alternate;
 }
 
+#face2 {
+  transform-origin: bottom;
+  transform-box: fill-box;
+  animation: head 1s ease-in-out infinite alternate;
+}
+
 @keyframes keyboard {
   0% {
     transform: rotate(2deg);
@@ -51,6 +57,15 @@
   }
   to {
     transform: rotate(13deg);
+  }
+}
+
+@keyframes head {
+  from {
+    transform: rotate(-1deg);
+  }
+  to {
+    transform: rotate(5deg);
   }
 }
 
