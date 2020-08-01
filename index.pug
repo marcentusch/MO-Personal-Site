@@ -16,13 +16,16 @@ html(lang="en")
     +navbar
     main
       +jetcat
-      +mo-coding
       section.introduction
         h1.intro-1 Hi, I'm Marc
         h1.intro-2 I'm a frontend developer who likes making fun and interesting things on the web
-      svg(class="bg-shape1" fill='none', xmlns='http://www.w3.org/2000/svg', viewBox='0 0 375 372')
-        path(d='M369 150s-63.5-62.5-216.5-62.5S-5.5 0-5.5 0L0 231h375l-6-81z', fill='#8BD3DD')
-        path(d='M375 134s-34-18-177.5-18S0 87.5 0 87.5V243h375V134z', fill='#FDEFCE')
-        rect( y='139', width='375', height='233', rx='10', fill='#F582AE')
+      section.about-me
+        svg(fill='none', xmlns='http://www.w3.org/2000/svg', viewBox='0 0 375 105')
+          path(d='M0 104V0s0 56 153 56 221.5 48 221.5 48H0z', fill='#8BD3DD')
+          path(d='M375 92s-73.5-18-186.5-18S0 52.5 0 52.5v52h375V92z', fill='#FDEFCE')
+        +mo-coding
+        div.about-me-container
+          h1 About me
+          p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi, earum.
 
 
