@@ -30,7 +30,7 @@ ul {
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
     Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  background-color: var(--light-bg);
+  background-color: var(--light-bg-low);
 
   @media (prefers-color-scheme: dark) {
     body {
