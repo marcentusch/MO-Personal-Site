@@ -3,6 +3,10 @@ html(lang="en")
   include components/jet-cat.pug
   include components/mo-coding.pug
   include components/navbar.pug
+  include components/linkedin-icon.pug
+  include components/git-icon.pug
+  include components/twitter-icon.pug
+  include components/codepen-icon.pug
   head
     meta(charset='UTF-8')
     meta(name='viewport' content='width=device-width, initial-scale=1.0')
@@ -18,7 +22,8 @@ html(lang="en")
       +jetcat
       section.introduction
         h1.intro-1 Hi, I'm Marc
-        h1.intro-2 I'm a frontend developer who likes making fun and interesting things on the web
+        h3.intro-3 - FRONTEND DEVELOEPR
+        h1.intro-2 I like making fun and perfomant things on the web
       section.about-me
         svg(fill='none', xmlns='http://www.w3.org/2000/svg', viewBox='0 0 375 105')
           path(d='M0 104V0s0 56 153 56 221.5 48 221.5 48H0z', fill='#8BD3DD')
@@ -26,7 +31,22 @@ html(lang="en")
         +mo-coding
         div.about-me-container
           h1.about-me-h About me
-          p.about-me-p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi, earum.
-            a.about-me-a Link to somewhere
+          p.about-me-p I currently work as a developer for 
+            a.about-me-a Nemlig.com 
+            | and have been working there since 2018. 
+            br
+            | I have volunteered at 
+            a.about-me-a(href="https://codingpirates.dk/" target="_blank") Coding Pirates DK 
+            | since 2017 as a teacher. I have taught multiple workshops ranging from 
+            | Web Development to 3D modeling/printing and robot wrestling. 
+          
+          p.about-me-p Some of my favorite technologies to work with include React, Vue, GSAP, Sass and Typescript.
+          p.about-me-p-hire Contact me, hire me or follow me on these platforms:
+          .social-container
+            +linkedin-icon
+            +git-icon
+            +codepen-icon
+            +twitter-icon
+
 
 

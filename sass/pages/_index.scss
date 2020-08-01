@@ -19,7 +19,6 @@ main {
   }
 
   .intro-1 {
-    font-weight: 900;
     font-size: 3.5rem;
     // Background only on text
     -webkit-background-clip: text;
@@ -49,34 +48,54 @@ main {
   z-index: 1;
 
   &-container {
+    border-radius: 5%;
     position: relative;
     background-color: var(--light-tertiary);
-    padding: 1.5rem 0 5rem 1.5rem;
+    padding: 3rem 0 5rem 1.5rem;
 
     @media screen and (min-width: 600px) {
       padding: 2rem 0 5rem 2rem;
     }
 
     @media screen and (min-width: 1024px) {
-      padding: 2rem 0 5rem 4rem;
+      padding: 2rem 0 4rem 4rem;
     }
   }
   &-h {
     margin-bottom: 1.5rem;
+    font-size: 2.8rem;
     text-transform: uppercase;
   }
 
   &-p {
-    line-height: 2rem;
-    font-weight: 300;
     max-width: 60%;
-    font-size: 1.5rem;
+
+    &-hire {
+      font-weight: 700;
+      margin-top: 2rem;
+      font-size: 2rem;
+    }
   }
 
   &-a {
-    color: var(--light-highlight);
     font-size: 1.5rem;
     font-weight: 500;
+  }
+}
+
+.social-container {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 2rem;
+
+  .icon-social {
+    width: 5rem;
+    height: 5rem;
+    fill: var(--light-highlight);
+  }
+
+  .icon-link {
+    margin: 0 2rem;
   }
 }
 
@@ -96,14 +115,15 @@ main {
   z-index: 5;
   height: 15rem;
   right: 0;
-  top: 5%;
+  top: 7%;
 
   @media screen and (min-width: 600px) {
+    top: 10%;
     height: 20rem;
   }
 
   @media screen and (min-width: 1024px) {
-    height: 25rem;
+    height: 24rem;
     top: 35%;
   }
 }
