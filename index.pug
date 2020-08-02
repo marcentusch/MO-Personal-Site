@@ -7,14 +7,8 @@ html(lang="en")
   include components/git-icon.pug
   include components/twitter-icon.pug
   include components/codepen-icon.pug
-  head
-    meta(charset='UTF-8')
-    meta(name='viewport' content='width=device-width, initial-scale=1.0')
-    meta(name='description' content="Marc Obel's personal portfolio")
-    link(rel="icon"  href="favicon.svg")
-    meta(name='theme-color' content='#fef6e4')
-    link(rel='stylesheet' href='./css/style.css')
-    title Marc Obel's Blog
+  include components/header.pug
+  +header
 
   body
     +navbar
@@ -23,7 +17,7 @@ html(lang="en")
       section.introduction
         h1.intro-1 Hi, I'm Marc
         h2.intro-2 - FRONTEND DEVELOPER
-        h3.intro-3 I like making fun and perfomant things on the web
+        h3.intro-3 I make fun, interactive things with code.
       section.about-me
         svg(fill='none', xmlns='http://www.w3.org/2000/svg', viewBox='0 0 375 105')
           path(d='M0 104V0s0 56 153 56 221.5 48 221.5 48H0z', fill='#8BD3DD')
@@ -31,7 +25,7 @@ html(lang="en")
         +mo-coding
         div.about-me-container
           h1.about-me-h About me
-          p.about-me-p I currently work as a developer for 
+          p.about-me-p My name is Marc Obel, I currently work as a developer for 
             a.about-me-a(href="https://www.nemlig.com/" target="_blank" aria-label="nemlig.com" rel="noopener") Nemlig.com 
             | and have been working there since 2018. 
             br
