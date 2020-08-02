@@ -56,7 +56,7 @@
 #face {
   transform-box: fill-box;
   transform-origin: bottom;
-  animation: head 0.2s ease-out infinite alternate;
+  animation: head 0.4s ease-out infinite alternate;
 }
 
 #cloud1 {
@@ -71,7 +71,7 @@
 
 @keyframes head {
   to {
-    transform: rotate(2deg);
+    transform: rotate(1deg);
   }
 }
 
