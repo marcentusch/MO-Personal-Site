@@ -1,0 +1,127 @@
+.jet-cat {
+  width: 80%;
+  max-height: 28rem;
+}
+
+#jet-cat {
+  animation: hover-cat 1s ease-in-out infinite alternate;
+}
+
+#explosions {
+  circle {
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+
+  #c1 {
+    animation: explosions 0.2s 0.1s ease-out infinite alternate;
+  }
+  #c2 {
+    animation: explosions 0.2s 0.2s ease-out infinite alternate;
+  }
+  #c3 {
+    animation: explosions 0.2s 0.3s ease-out infinite alternate;
+  }
+  #c4 {
+    animation: explosions 0.2s 0.4s ease-out infinite alternate;
+  }
+  #c5 {
+    animation: explosions 0.2s 0.5s ease-out infinite alternate;
+  }
+  #c6 {
+    animation: explosions 0.2s 0.6s ease-out infinite alternate;
+  }
+}
+
+#tail {
+  animation: tail 0.2s linear infinite alternate;
+}
+
+#arm1,
+#arm2,
+#leg1,
+#leg2 {
+  transform-box: fill-box;
+  transform-origin: top;
+}
+
+#arm1 {
+  animation: flailing 1s ease-in-out infinite alternate;
+}
+#arm2 {
+  animation: flailing 0.8s 0.4s ease-in-out infinite alternate;
+}
+#leg1 {
+  animation: flailing 0.8s 0.2s ease-in-out infinite alternate;
+}
+#leg2 {
+  animation: flailing 1s 0.6s ease-in-out infinite alternate;
+}
+
+#face {
+  transform-box: fill-box;
+  transform-origin: bottom;
+  animation: head 0.6s ease-in-out infinite alternate;
+}
+
+#cloud1 {
+  animation: clouds 4s ease-in-out infinite alternate;
+}
+#cloud2 {
+  animation: clouds 4.5s ease-in-out infinite alternate-reverse;
+}
+#cloud3 {
+  animation: clouds 3.5s 0.5s ease-in-out infinite alternate;
+}
+
+@keyframes head {
+  to {
+    transform: rotate(1deg);
+  }
+}
+
+@keyframes clouds {
+  to {
+    transform: translateX(2rem);
+  }
+}
+
+@keyframes flailing {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(5deg);
+  }
+}
+
+@keyframes explosions {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(8);
+  }
+}
+
+@keyframes hover-cat {
+  from {
+    transform: translateY(0rem);
+  }
+  to {
+    transform: translateY(-1rem);
+  }
+}
+
+@keyframes tail {
+  from {
+    d: path(
+      "M173.447 222.515C173.447 222.515 160 235.5 168.242 243.335C176.485 251.169 170.585 266.757 170.585 266.757"
+    );
+  }
+  to {
+    d: path(
+      "M173.447 222.515C173.447 222.515 179.5 234 168.242 243.335C156.985 252.669 170.585 266.757 170.585 266.757"
+    );
+  }
+}
