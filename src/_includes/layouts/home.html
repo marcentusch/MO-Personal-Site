@@ -12,7 +12,8 @@
       </div>
       <div class="[ intro__content ] [ flow ]">
         <p class="intro__summary">{{ intro.summary }}</p>
-        <a href="{{ intro.buttonUrl }}" class="button" data-variant="secondary">{{ intro.buttonText }}</a>
+
+        {% include "partials/socials.html"%}
       </div>
       <div class="[ intro__media ] [ radius dot-shadow ]">
         {% include "partials/jet-cat.svg" %}

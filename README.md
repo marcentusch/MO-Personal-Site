@@ -1,1 +1,1 @@
-A site created with Eleventy for a fictional company
+### My personal site and blog

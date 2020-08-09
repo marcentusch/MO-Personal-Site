@@ -9,6 +9,9 @@
     <div class="panel dot-shadow bg-light-glare">
       <div class="[ page-content ] [ flow wrapper ] [ flow-space-700 ]">
         {{ content | safe }}
+        {% if includeSocials == "true" %}
+          {% include "partials/socials.html" %}
+        {% endif %}
       </div>
     </div>
   </article>

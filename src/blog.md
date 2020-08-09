@@ -10,5 +10,4 @@ paginationNextText: "Older posts"
 paginationAnchor: "#post-list"
 ---
 
-The latest articles from around the studio, demonstrating our design
-thinking, strategy and expertise.
+For now these posts are just lorem ipsum. I am working on adding some real content.
