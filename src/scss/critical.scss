@@ -22,9 +22,14 @@ body {
   @include apply-utility("font", "base");
 }
 
-a:not([class]) {
+a {
   color: currentColor;
-  text-decoration-color: get-color("secondary");
+  text-decoration-color: get-color("tertiary");
+
+  &:hover {
+    color: get-color("tertiary");
+    text-decoration-color: get-color("dark");
+  }
 }
 
 :focus {
@@ -95,5 +100,4 @@ h4 {
 @import "utilities/wrapper";
 @import "utilities/headline";
 @import "utilities/auto-grid";
-@import "blocks/people";
 @import "blocks/person";

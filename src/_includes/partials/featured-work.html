@@ -12,24 +12,17 @@
           {{ featuredWork.summary }}
         </p>
       </div>
-      {% for item in collections.featuredWork %}
-        <a
-        href="{{ item.url }}"
-        aria-label="See {{ item.data.title }}"
-        class="[ featured-work__item ] [ frame ]"
-        data-frame="tertiary"
-      >
-          <img
-          src="{{ item.data.hero.image }}"
-          alt="{{ item.data.hero.imageAlt }}"
-          loading="lazy"
-          class="radius"
-/>
-        </a>
-      {% endfor %}
+      <div class="featured-work__latest-list">
+        {% for item in collections
+          .blog
+          .splice(0, 3) %}
+          <a class="featured-work__item" href="{{item.url}}" >
+            {{item.data.title}}</a>
+        {% endfor %}
+      </div>
     </div>
     <div class="[ featured-work__action ] [ flow-space-700 ]">
-      <a href="/work/" class="button">See more work</a>
+      <a href="/blog/" class="button">See more posts</a>
     </div>
   </div>
 </article>

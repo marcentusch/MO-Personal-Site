@@ -12,7 +12,7 @@
       </div>
       <div class="[ intro__content ] [ flow ]">
         <p class="intro__summary">{{ intro.summary }}</p>
-        <a href="{{ intro.buttonUrl }}" class="button">{{ intro.buttonText }}</a>
+        <a href="{{ intro.buttonUrl }}" class="button" data-variant="secondary">{{ intro.buttonText }}</a>
       </div>
       <div class="[ intro__media ] [ radius dot-shadow ]">
         {% include "partials/jet-cat.svg" %}
@@ -26,8 +26,5 @@
 
   {% include "partials/featured-work.html" %}
   {% include "partials/studio-feed.html" %}
-
-  {% set ctaContent = cta %}
-  {% include "partials/cta.html" %}
 
 {% endblock %}

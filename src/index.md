@@ -6,7 +6,7 @@ intro:
   main: "Marc Obel"
   summary: "I make fun, interactive things with code."
   buttonText: "See my work"
-  buttonUrl: "/work"
+  buttonUrl: "/blog"
   image: "/images/bg/toast.jpg"
   imageAlt: "Buttered toasted white bread"
 primaryCTA:
@@ -17,10 +17,7 @@ I have volunteered at Coding Pirates DK since 2017 as a teacher. I have taught m
   buttonText: "Contact me"
   buttonUrl: "/contact"
 featuredWork:
-  title: "Selected work"
-  summary: "Some stuff that should give you an idea of what we’re all about."
-studioFeed:
-  title: "From inside the studio"
+  title: "Latest blog posts"
 ---
 
 This is pretty _rad_, right?

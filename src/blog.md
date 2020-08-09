@@ -1,5 +1,5 @@
 ---
-title: "The Issue 33 Blog"
+title: "Marc Obel's Blog"
 layout: "layouts/feed.html"
 pagination:
   data: collections.blog

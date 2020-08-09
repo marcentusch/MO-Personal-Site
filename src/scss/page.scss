@@ -10,7 +10,7 @@ $outputTokenCSS: false;
 // Generic styles
 time[datetime] {
   display: block;
-  color: get-color("primary-shade");
+  color: get-color("secondary-shade");
   font-size: get-size("700");
   font-style: italic;
 }
