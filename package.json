@@ -24,5 +24,8 @@
     "html-minifier": "^4.0.0",
     "moment": "^2.27.0",
     "sass": "^1.26.10"
+  },
+  "devDependencies": {
+    "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1"
   }
 }

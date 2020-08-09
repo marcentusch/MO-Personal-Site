@@ -2,8 +2,7 @@
 const dateFilter = require("./src/filters/date-filter.js");
 const w3DateFilter = require("./src/filters/w3-date-filter.js");
 const rssPlugin = require("@11ty/eleventy-plugin-rss");
-
-const sortByDisplayOrder = require("./src/utils/sort-by-display-order.js");
+const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 
 // Transforms
 const htmlMinTransform = require("./src/transforms/html-min-transform.js");
@@ -23,6 +22,7 @@ module.exports = (config) => {
 
   // Plugins
   config.addPlugin(rssPlugin);
+  config.addPlugin(syntaxHighlight);
 
   // Returns a collection of blog posts in reverse date order
   config.addCollection("blog", (collection) => {
