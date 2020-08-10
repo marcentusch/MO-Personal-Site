@@ -9,5 +9,3 @@ paginationPrevText: "Newer posts"
 paginationNextText: "Older posts"
 paginationAnchor: "#post-list"
 ---
-
-For now these posts are just lorem ipsum. I am working on adding some real content.

@@ -1,5 +1,5 @@
 ---
-title: "Animating a rainbow powered jet cat"
+title: "How to make an animated gradient header"
 date: "2020-08-10"
 tags: ["Tips And Tricks", "CSS", "Animations", "Tutorial"]
 ---
@@ -18,9 +18,9 @@ h1 {
 }
 ```
 
-The bit about background-clip and transparent text I explained above, however we also need to set `inline-block` so our header only fills as much as the content within. Since our background is only visible where we have text, it does not make sense for it fill out anything else.
+The bit about background-clip and transparent text I explained above, however, we also need to set `inline-block` so our header only fills as much as the content within. Since our background is only visible where we have text, it does not make sense for it to fill out anything else.
 
-Lastly we create the gradient. I just grabbed some colors from [HappyHues](https://www.happyhues.co/) that looked nice.
+Lastly, we create a gradient. I just grabbed some colors from [HappyHues](https://www.happyhues.co/) that looked nice.
 
 ### Step 2: Animating our gradient
 
@@ -40,6 +40,10 @@ animation: gradient-scroll 12s ease infinite;
   }
 }
 ```
+
+We scale up our `background-size` so that the header only shows a smaller part of it. A nice way to think about it is that with this setup our header is the viewport through to the background and then when we animate the position of the background it will give the impression of an animated gradient.
+
+Then we just add keyframes for moving the background around in both x and y and give the animation a long duration so it is a bit more subtle. This can easily be changed to a different effect by changing the easing, duration, and keyframes.
 
 ## Final result
 
