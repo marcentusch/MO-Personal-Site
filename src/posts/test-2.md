@@ -1,10 +1,10 @@
 ---
 title: "Disabling animations for sensitive users"
 date: "2020-08-11"
-tags: ["Tips And Tricks", "Tutorial", "Accesibility"]
+tags: ["Tips And Tricks", "CSS", "Accesibility"]
 ---
 
-Some users may experience dizziness, nausea, headaches or other symptons when being exposed to the large amounts of movement on the screen of a lot of modern websites. Luckily with the support from all major browsers(not IE11) of `prefers-reduced-motion` we can easily accomodate these users with a single media query.
+Some users may experience dizziness, nausea, headaches, or other symptoms when being exposed to large amounts of movement on the screen of a lot of modern websites. Luckily with the support from all major browsers(not IE11) of `prefers-reduced-motion` we can easily accommodate these users with a single media query.
 
 ```css
 @media (prefers-reduced-motion: reduce) {

@@ -33,6 +33,9 @@ module.exports = {
   getSiblingContent(collection, item, limit = 3, random = true) {
     let filteredItems = collection.filter((x) => x.url !== item.url);
 
+    console.log("item url:", item.url);
+    console.log(filteredItems.length);
+
     if (random) {
       let counter = filteredItems.length;
 
