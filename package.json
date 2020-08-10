@@ -23,7 +23,8 @@
     "gulp-sass": "^4.1.0",
     "html-minifier": "^4.0.0",
     "moment": "^2.27.0",
-    "sass": "^1.26.10"
+    "sass": "^1.26.10",
+    "terser": "^5.0.0"
   },
   "devDependencies": {
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1"

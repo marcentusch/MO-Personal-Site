@@ -1,8 +1,10 @@
 // Filters
 const dateFilter = require("./src/filters/date-filter.js");
 const w3DateFilter = require("./src/filters/w3-date-filter.js");
+
 const rssPlugin = require("@11ty/eleventy-plugin-rss");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+const Terser = require("terser");
 
 // Transforms
 const htmlMinTransform = require("./src/transforms/html-min-transform.js");
@@ -14,6 +16,15 @@ module.exports = (config) => {
   // Add filters
   config.addFilter("dateFilter", dateFilter);
   config.addFilter("w3DateFilter", w3DateFilter);
+  config.addFilter("jsmin", function (code) {
+    let minified = Terser.minify(code);
+    if (minified.error) {
+      console.log("Terser error: ", minified.error);
+      return code;
+    }
+
+    return minified.code;
+  });
 
   // Only minify HTML if we are in production because it slows builds _right_ down
   if (isProduction) {
@@ -31,6 +42,8 @@ module.exports = (config) => {
 
   // Tell 11ty to use the .eleventyignore and ignore our .gitignore file
   config.setUseGitIgnore(false);
+
+  config.addPassthroughCopy("serviceworker.js");
 
   return {
     // Setting the template engine to nunjucks. Now .html files can use nunjucks
