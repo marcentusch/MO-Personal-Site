@@ -43,8 +43,6 @@ module.exports = (config) => {
   // Tell 11ty to use the .eleventyignore and ignore our .gitignore file
   config.setUseGitIgnore(false);
 
-  config.addPassthroughCopy("serviceworker.js");
-
   return {
     // Setting the template engine to nunjucks. Now .html files can use nunjucks
     markdownTemplateEngine: "njk",
