@@ -1,1 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 121 156"><g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="burger-guy"><g id="hair1" transform="translate(73 38.7)" fill="#F95F37"><path d="M18 44.3c10 0 17.6-2 17.6-13s-7.7-27-17.6-27c-10 0-18 9-18 20s8 20 18 20z" id="Oval"/><path d="M43.4 3.4A45.4 45.4 0 0128.5 23h0l-1.9-7.4c7.2-2.8 12.8-7 16.8-12.3zM27.6 30c8.2-4 14.5-5.7 19-4.7a330 330 0 00-17 12.1h0zM23.7 9.8a26 26 0 0114.4-4c-3.7.7-6.6 1.6-8.6 2.7a8.8 8.8 0 00-3 2.5c-.3.5-.6 1-.8 1.7h0z" id="Path-2" stroke="#000"/><path d="M29.7 36c1.6-.3 3.3-.3 5 0a6.8 6.8 0 00-3.2 2.6c-1 1.4-1.4 3.2-1.6 5.5h0l-5.2-5.8c1.3-1.1 3-2 5-2.3z" id="Path-2" stroke="#000" transform="rotate(67 30.3 40.3)"/><path d="M40.9 16.7c-4.1 3-7 9.2-8.4 18.6h0l-6.2-7.5 1.7-1.9c3.5-3.8 7.6-8.5 12.9-9.2z" id="Path-2" stroke="#000" transform="rotate(37 34.2 26.3)"/></g><g id="hair2" transform="rotate(-172 27.4 44.4)" fill="#F95F37"><path d="M18.3 45.5c10 0 15.4-11.3 15.4-22.4C33.7 12.1 28 6 18 6S0 13.2 0 24.3c0 11 8.3 21.2 18.3 21.2z" id="Oval"/><path d="M43.4 3.4A45.4 45.4 0 0128.5 23h0l-1.9-7.4c7.2-2.8 12.8-7 16.8-12.3zM27.6 30c8.2-4 14.5-5.7 19-4.7a330 330 0 00-17 12.1h0zM23.7 9.8a26 26 0 0114.4-4c-3.7.7-6.6 1.6-8.6 2.7a8.8 8.8 0 00-3 2.5c-.3.5-.6 1-.8 1.7h0z" id="Path-2" stroke="#000"/><path d="M29.7 36c1.6-.3 3.3-.3 5 0a6.8 6.8 0 00-3.2 2.6c-1 1.4-1.4 3.2-1.6 5.5h0l-5.2-5.8c1.3-1.1 3-2 5-2.3z" id="Path-2" stroke="#000" transform="rotate(67 30.3 40.3)"/><path d="M40.9 16.7c-4.1 3-7 9.2-8.4 18.6h0l-6.2-7.5 1.7-1.9c3.5-3.8 7.6-8.5 12.9-9.2z" id="Path-2" stroke="#000" transform="rotate(37 34.2 26.3)"/></g><path d="M78.7 28.5A13.5 13.5 0 0192 40h0l13.9 94.7a13.5 13.5 0 01-10 15 158.1 158.1 0 01-31.3 5.8c-5.6 0-16.9-2-34-6a13.5 13.5 0 01-10.2-15h0l13.2-94.4a13.5 13.5 0 0113.3-11.6h31.8z" id="head" stroke="#000" fill="#FFF"/><circle id="nose" stroke="#000" fill="#F55656" cx="63" cy="75" r="5.5"/><g id="eye1" transform="translate(32 59)" stroke="#000" stroke-linecap="round"><path id="Path" fill="#000" d="M6.5.5V4M6.5 9v2.5"/><path d="M6.7.1c.8 2.8 1.2 5 1.2 6.5 0 1.6-.5 3.8-1.5 6.7" id="Path" fill-opacity="0" fill="#403D3D" transform="rotate(-91.1 7.2 6.7)"/></g><g id="eye2" transform="translate(77 59)" stroke="#000" stroke-linecap="round"><path id="Path" fill="#000" d="M6.5.5V4M6.5 9v2.5"/><path d="M6.7.1c.8 2.8 1.2 5 1.2 6.5 0 1.6-.5 3.8-1.5 6.7" id="Path" fill-opacity="0" fill="#403D3D" transform="rotate(-91.1 7.2 6.7)"/></g><path d="M29 132c24.5 5 47.5 5 69 0" id="mouth" stroke="#000" stroke-linecap="round"/><path d="M35 48.3c4-10 8-10 12.5 0" id="brow1" stroke="#000" stroke-linecap="round"/><path d="M76 48.5c4-10 8-10 12.5 0" id="brow2" stroke="#000" stroke-linecap="round"/><g id="hat" transform="translate(33 .1)" fill="#828080" stroke="#131313"><path d="M53.7 19.4a2.5 2.5 0 012.4 1.9h0l2.5 10a2.5 2.5 0 01-2.4 3h0H3.5A2.5 2.5 0 011 32h0l1.7-10.4a2.5 2.5 0 012.5-2.1h0zM16.9 1.1C19.2.1 23 .5 28.2.9c4.9.3 10.8.8 17.4.4 1 3.2 2.7 8.1 5.3 14.7a2.5 2.5 0 01-2.3 3.4h0H8.3a4 4 0 01-.1-3.2c.6-1.7 1.9-3.6 3.4-5.7 1.9-2.7 4-5.8 5.3-9.4z" id="Rectangle"/></g></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 121 157">
+  <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g id="burger-guy">
+      <g id="hair1" transform="translate(73 38.7)" fill="#F95F37">
+        <path d="M18 44.3c10 0 17.6-2 17.6-13s-7.7-27-17.6-27c-10 0-18 9-18 20s8 20 18 20z" id="Oval"/>
+        <path d="M43.4 3.4A45.4 45.4 0 0128.5 23h0l-1.9-7.4c7.2-2.8 12.8-7 16.8-12.3zM27.6 30c8.2-4 14.5-5.7 19-4.7a330 330 0 00-17 12.1h0zM23.7 9.8a26 26 0 0114.4-4c-3.7.7-6.6 1.6-8.6 2.7a8.8 8.8 0 00-3 2.5c-.3.5-.6 1-.8 1.7h0z" id="Path-2" stroke="#000"/>
+        <path d="M29.7 36c1.6-.3 3.3-.3 5 0a6.8 6.8 0 00-3.2 2.6c-1 1.4-1.4 3.2-1.6 5.5h0l-5.2-5.8c1.3-1.1 3-2 5-2.3z" id="Path-2" stroke="#000" transform="rotate(67 30.3 40.3)"/>
+        <path d="M40.9 16.7c-4.1 3-7 9.2-8.4 18.6h0l-6.2-7.5 1.7-1.9c3.5-3.8 7.6-8.5 12.9-9.2z" id="Path-2" stroke="#000" transform="rotate(37 34.2 26.3)"/>
+      </g>
+      <g id="hair2" transform="rotate(-172 27.4 44.4)" fill="#F95F37">
+        <path d="M18.3 45.5c10 0 15.4-11.3 15.4-22.4C33.7 12.1 28 6 18 6S0 13.2 0 24.3c0 11 8.3 21.2 18.3 21.2z" id="Oval"/>
+        <path d="M43.4 3.4A45.4 45.4 0 0128.5 23h0l-1.9-7.4c7.2-2.8 12.8-7 16.8-12.3zM27.6 30c8.2-4 14.5-5.7 19-4.7a330 330 0 00-17 12.1h0zM23.7 9.8a26 26 0 0114.4-4c-3.7.7-6.6 1.6-8.6 2.7a8.8 8.8 0 00-3 2.5c-.3.5-.6 1-.8 1.7h0z" id="Path-2" stroke="#000"/>
+        <path d="M29.7 36c1.6-.3 3.3-.3 5 0a6.8 6.8 0 00-3.2 2.6c-1 1.4-1.4 3.2-1.6 5.5h0l-5.2-5.8c1.3-1.1 3-2 5-2.3z" id="Path-2" stroke="#000" transform="rotate(67 30.3 40.3)"/>
+        <path d="M40.9 16.7c-4.1 3-7 9.2-8.4 18.6h0l-6.2-7.5 1.7-1.9c3.5-3.8 7.6-8.5 12.9-9.2z" id="Path-2" stroke="#000" transform="rotate(37 34.2 26.3)"/>
+      </g>
+      <path d="M78.7 28.5A13.5 13.5 0 0192 40h0l13.9 94.7a13.5 13.5 0 01-10 15 158.1 158.1 0 01-31.3 5.8c-5.6 0-16.9-2-34-6a13.5 13.5 0 01-10.2-15h0l13.2-94.4a13.5 13.5 0 0113.3-11.6h31.8z" id="head" stroke="#000" fill="#FFF"/>
+      <circle id="nose" stroke="#000" fill="#F55656" cx="63" cy="75" r="5.5"/>
+      <g id="eye1" transform="translate(31 59)" fill="#000" stroke="#000">
+        <path id="Path" stroke-linecap="round" d="M7.5.5V4"/>
+        <path d="M8.5 6.5c2.1 0 4 .4 5.5 1a7 7 0 012 1l.4.4c-.6 0-1-.1-1.5-.3a19 19 0 00-6.4-1.4 19 19 0 00-6.4 1.4L.8 9c0-.2 0-.4.3-.5a7 7 0 011.9-1 16 16 0 015.5-1z" id="Oval"/>
+        <path id="Path" stroke-linecap="round" d="M7.5 11v2.5"/>
+      </g>
+      <g id="eye2" transform="translate(77 58)" fill="#000" stroke="#000">
+        <path id="Path" stroke-linecap="round" d="M8.5.5V4"/>
+        <path d="M8.5 6.5c2.1 0 4 .4 5.5 1a7 7 0 012 1l.4.4c-.6 0-1-.1-1.5-.3a19 19 0 00-6.4-1.4 19 19 0 00-6.4 1.4L.8 9c0-.2 0-.4.3-.5a7 7 0 011.9-1 16 16 0 015.5-1z" id="Oval"/>
+        <path id="Path" stroke-linecap="round" d="M8.5 12v2.5"/>
+      </g>
+      <path d="M29 132c24.5 5 47.5 5 69 0" id="mouth" stroke="#000" stroke-linecap="round"/>
+      <path d="M35 48.3c4-10 8-10 12.5 0" id="brow1" stroke="#000" stroke-linecap="round"/>
+      <path d="M76 48.5c4-10 8-10 12.5 0" id="brow2" stroke="#000" stroke-linecap="round"/>
+      <g id="hat" transform="translate(33 .1)" fill="#828080" stroke="#131313">
+        <path d="M53.7 19.4a2.5 2.5 0 012.4 1.9h0l2.5 10a2.5 2.5 0 01-2.4 3h0H3.5A2.5 2.5 0 011 32h0l1.7-10.4a2.5 2.5 0 012.5-2.1h0zM16.9 1.1C19.2.1 23 .5 28.2.9c4.9.3 10.8.8 17.4.4 1 3.2 2.7 8.1 5.3 14.7a2.5 2.5 0 01-2.3 3.4h0H8.3a4 4 0 01-.1-3.2c.6-1.7 1.9-3.6 3.4-5.7 1.9-2.7 4-5.8 5.3-9.4z" id="Rectangle"/>
+      </g>
+    </g>
+  </g>
+</svg>
