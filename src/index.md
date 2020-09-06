@@ -6,7 +6,6 @@ intro:
   eyebrow: "- Frontend Developer"
   main: "Marc Obel"
   summary: "I make fun, interactive things with code."
-  buttonText: "See my work"
   buttonUrl: "/blog"
 primaryCTA:
   title: "About me"
@@ -18,4 +17,3 @@ featuredWork:
   title: "Latest blog posts"
 ---
 
-This is pretty _rad_, right?
