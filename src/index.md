@@ -9,7 +9,7 @@ intro:
   buttonUrl: "/blog"
 primaryCTA:
   title: "About me"
-  summary: "I currently work as a full-stack developer for Nemlig.com and have been working there since start 2018.
+  summary: "I currently work as a frontend developer for Plantjammer and have been working there since start 2021.
 I have volunteered at Coding Pirates DK since 2017 as a teacher. I have taught multiple workshops ranging from Web Development to 3D modeling/printing and robot wrestling. "
   buttonText: "Contact me"
   buttonUrl: "/contact"
